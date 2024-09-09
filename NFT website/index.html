@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+        <link rel="stylesheet" href="assets/style/style.css">
+  </head>
+  <body>
+  
+    <!-- nav section -->
+    <div class="container">
+        <header>
+        <div class="logo">NTF<span>.</span></div>
+
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <!-- <li><a href="#">Contact</a></li> -->
+        </ul>
+    </header>
+  </div>
+
+
+  <!-- hero section -->
+  <div class="hero-section">
+      <div class="inner-hero">
+          <h1>Discover, collect and sell Dope Art and NFTs</h1>
+            <p>The world's largest digital market place for crypto collection and non fungible tokens</p>
+
+            <div class="action-btn">
+              <button>Discover</button>
+              <button>Create</button>
+            </div>
+
+            <div class="progress-section">
+              <div class="inner-progress">
+                <h3>27K + <span>Art works</span></h3>
+              </div>
+              <div class="inner-progress">
+                <h3>20K + <span>Auctions</span></h3>
+              </div>
+              <div class="inner-progress">
+                <h3>7K + <span>Artist</span></h3>
+              </div>
+            </div>
+      </div>
+
+      <div class="hero-image">
+        <img src="assets/images/hero/hero.jpg" width="400" style="border-radius: 15px" alt="">
+      </div>
+  </div>
+
+  <!-- payment methods section  -->
+  <div class="payment-gates">
+    <marquee behavior="alternate" direction="right">
+
+      <div class="pay-methods">
+        <div class="img">
+          <img src="assets/images/card-img/card-1.jpg" alt="">
+        </div>
+        <div class="img">
+          <img src="assets/images/image-equilibrium.jpg" alt="">
+        </div>
+        <div class="img">
+          <img src="assets/images/logo-1.jpg" alt="">
+        </div>
+        <div class="img">
+          <img src="assets/images/card-img/card-2.jpg" alt="">
+        </div>
+        <div class="img">
+          <img src="assets/images/card-img/card-1.jpg" alt="">
+        </div>
+        <div class="img">
+          <img src="assets/images/log-2.jpg" alt="">
+        </div>
+        <div class="img">
+          <img src="assets/images/log-5.jpg" alt="">
+        </div>
+      </div>
+     </marquee>
+  </div>
+
+  <div class="intro-designs">
+    <h1>Popula designs</h1>
+    
+    <div class="design-showcase">
+      <div class="card">
+        <img src="assets/images/card-img/card-1.jpg" alt="">
+
+        <div class="inner-info">
+          <div class="copyright">
+            <h4>Blue Falcon</h4>
+          <p>by Alex </p>
+        </div>
+
+          <div class="price">
+            <p>2.45 ETH</p>
+          </div>
+          
+        </div>
+      </div>
+      <div class="card">
+        <img src="assets/images/image-equilibrium.jpg" alt="">
+        
+        <div class="inner-info">
+          <div class="copyright">
+            <h4>Cubicle</h4>
+            <p>by Mike </p>
+          </div>
+          
+          <div class="price">
+            <p>1.45 ETH</p>
+          </div>
+          
+        </div>
+      </div>
+      <div class="card">
+        
+        <img src="assets/images/item-2.jpg" alt="">
+        <div class="inner-info">
+          <div class="copyright">
+            <h4>Baby spiderman</h4>
+          <p>by Alex </p>
+        </div>
+
+          <div class="price">
+            <p>2.45 ETH</p>
+          </div>
+          
+        </div>
+      </div>
+      
+    </div>
+  </div>
+    
+
+    <div class="grid-showcase " id="gallery" >
+      <h1>Design Gallery</h1>
+      <div class="inner-showcase">
+
+        
+        <div class="gallery-content">
+          <div class="txt">
+            <p>Welcome to our NFT Gallery, where digital art meets the future. Explore a curated collection of one-of-a-kind NFTs, each uniquely crafted to capture the imagination and push the boundaries of creativity. Our gallery showcases an array of digital masterpieces, from vibrant abstract designs to futuristic landscapes, all created by visionary artists from around the world. </p><br>
+
+              <p>Whether you're an avid collector or new to the world of NFTs, you'll find something here that resonates with your passion for art and technology. Each piece in our collection is a certified digital asset, securely stored on the blockchain, ensuring authenticity and ownership.</p><br>
+              
+              <p>Dive into our gallery, click on any image to view the full artwork, and experience the cutting-edge world of digital art. Discover, collect, and be inspired by the next generation of art in our NFT Gallery.</p>
+          </div>
+        </div>
+        <div class="grid-layout">
+              <div class="item cake1">
+                  
+                  <img src="assets/images/item-1.jpg" alt=""+>
+              </div>
+              <div class="item cake2">
+                  <img src="assets/images/item-2.jpg" alt=""+>
+              </div>
+              <div class="item cake3">
+                  <img src="assets/images/item-3.jpg" alt=""+>
+              </div>
+              <div class="item cake4">
+                  <img src="assets/images/item-5.jpg" alt=""+>
+              </div>
+              <div class="item cake5">
+                  <img src="assets/images/item-6.jpg" alt=""+>
+              </div>
+              <div class="item cake6" data-aos="fade-right">
+                  <img src="assets/images/item-4.jpg" alt=""+>
+              </div>
+              
+          </div>
+      </div>
+    
+</div>
+</div>
+
+<!-- Modal structure for displaying the full image -->
+<div id="imageModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="fullImage">
+  <div id="caption"></div>
+</div>
+
+<div class="membership">
+  <h2>Join our community to create and collect NFTs digital art</h2>
+
+  <a href="">Join Community</a>
+</div>
+
+<footer>
+  <div class="outro">
+    <h1>NFT</h1>
+    <p>The worlds largest digital marketplace for crypto collectios and non fungible tokens (NFTs) buy, sell and discover</p>
+    <div class="icon">
+      <a href="#"><i class='bx bxl-instagram'></i></a>
+      <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+      <a href="#"><i class='bx bxl-behance'></i></a>
+    </div>
+  </div>
+
+  <div class="footer-info">
+    <div class="inner-footer">
+      <h3>Explore</h3>
+      <div class="link">
+        <a href="#">Art</a>
+        <a href="#">Trends</a>
+        <a href="#">Events</a>
+      </div>
+    </div>
+    <div class="inner-footer">
+      <h3>Company</h3>
+      <div class="link">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </div>
+    </div>
+  
+  
+
+</footer>
+
+<script src="assets/script/script.js"></script>
+  </body>
+</html>
