@@ -629,6 +629,11 @@ footer .footer-info .inner-footer .link a:hover {
     top: 50%;
     left: -10em;
 } */
-
+@media (width: 300px) {
+    .hero-section {
+        diplay: flex;
+        flex-direction: column;
+    }
+}
 
 
